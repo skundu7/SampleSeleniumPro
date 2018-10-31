@@ -1,0 +1,61 @@
+<Project>
+  <Family>
+     <Member1>
+     <Title>Mr.</Title>
+        <Name>Dharampal Kundu</Name>
+        <Relation>Father</Relation>
+        <DOB>01/11/1961</DOB>
+    </Member1>
+
+     <Member2>
+     <Title>Ms.</Title>
+     <Name>Banti</Name>
+     <Relation>Mother</Relation>
+     <DOB>01/04/1962</DOB>
+     </Member2>
+     
+     <Member3>
+     <Title>Mr.</Title>
+     <Name>Manoj</Name>
+     <Relation>Brother</Relation>
+     <DOB>13/04/1983</DOB>
+     </Member3>
+     
+     <Member4>
+     <Title>Ms.</Title>
+     <Name>Saroj</Name>
+     <Relation>Sister</Relation>
+     <DOB>02/11/1986</DOB>
+     </Member4>
+     
+</Family>
+
+<Vehicles>
+<Cars>
+<I20>
+<VehicleType>Car</VehicleType>
+<RegNo>HR08S3759</RegNo>
+<VehicleMake>HYUNDAI</VehicleMake>
+<VehicleModel>i 20</VehicleModel>
+<VehicleVariant>1.2 SPORTZ</VehicleVariant>
+<FuelType>Petrol</FuelType>
+<RegYear>2014</RegYear>
+<ExpiryDate>01/12/2018</ExpiryDate>
+</I20>
+<Swift>
+<VehicleType>Car</VehicleType>
+<RegNo>HR08S3758</RegNo>
+<VehicleMake>MARUTI</VehicleMake>
+<VehicleModel>SWIFT</VehicleModel>
+<VehicleVariant>VDI ABS</VehicleVariant>
+<FuelType>Petrol</FuelType>
+<RegYear>2018</RegYear>
+<ExpiryDate>31/12/2018</ExpiryDate>
+</Swift>
+
+</Cars>
+
+<Bikes></Bikes>
+
+</Vehicles>
+</Project>
