@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features={"src/test/resources/Features"},
 		monochrome=true,
-		plugin = { "pretty","html:target/cucumber-reports","json:target/cucumber-reports/Cucumber.json"},
+		plugin = { "pretty","html:Reports/cucumber-reports","json:Reports/cucumber-reports/Cucumber.json"},
 		dryRun=false,
 		strict=true,
 		tags ={"@Regression"}
