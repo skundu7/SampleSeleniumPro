@@ -36,6 +36,14 @@ The pom.xml consist all the dependencies for Selenium, Java , Cucumber and goals
 which helps us run the test scripts using mvn verify command from command line or from jenkins as well.
 
 
+**Jenkins integration**
+
+We can integrate our github project and keep our gihub repo as the source code management in the Jenkins. 
+we can use invoke top level maven target to trigger the test scripts. In Post build actions we use the cucmber reports and email notification.
+
+below is the screenshot fo how the cucumber reports look like. The cucumber reports link of jenkins can be shared with the team.
+
+<img width="945" alt="cucmber reports" src="https://user-images.githubusercontent.com/37755917/48910413-059d5d80-eec4-11e8-8ec7-02babbd5cb64.png">
 
 
 
