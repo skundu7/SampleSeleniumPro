@@ -5,7 +5,7 @@ This Automation framework uses Selenium webdriver with Java, maven ,github as a 
 
 The framework uses xml file to get test data, which is used in the scripts as expected data.
 
-The framework uses page object model with page factory pattern. Which helps managing the elements according to each page and it simplifies the framework and reduces the maintenance effort of the Automation framework.
+The framework uses page object model with page factory pattern, which helps managing the elements according to each page, simplifies the framework and reduces the maintenance effort of the Automation framework.
 
 Below is how the project structure looks like.
 
@@ -14,10 +14,8 @@ Below is how the project structure looks like.
 The below points will describe this Automation framework:
 
 **--> utils Package**
-Utils folder consist of all the main classes like driver factory which create the driverfactory, via SeleniumUtils 
-we are passing our driver to all the Page classes, it usually consists all the common methods.
-
---> SeleniumUtils class is the Super class which gets extended by all the page classes.
+Utils folder consist of all the main classes like driverfactory which create the driver for different browsers.
+using SeleniumUtils we are passing our driver to all the Page classes, it usually consists all the common methods. SeleniumUtils class is the Super class which gets extended by all the page classes.
 
 **Pages :**
 
@@ -25,7 +23,7 @@ All the pages of the application are in  Pages package, all the page classes con
 
 **StepDefinitions:**
 
-The stepdifiniton for all steps of feature files are categoried and for each page different stepdifintion classes are created..
+The stepdifiniton for all steps of feature files are categorized; and for each page different stepdifintion classes are created under stepdifintions pakage.
 
 **Src/test/features:**
 
