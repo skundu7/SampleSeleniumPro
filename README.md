@@ -1,5 +1,5 @@
 # SampleSeleniumPro
-Selenium + Cucumber + Maven + Jenkins Integration
+**Selenium + Cucumber + Maven + Jenkins Integration**
 
 This Automation framework uses Selenium webdriver with Java, and test ases for Feature files are written using Gherkin plain tet. 
 
@@ -11,7 +11,8 @@ the framework and redues the maintenane effort of the Automation framework.
 
 The below points will describe the Automation framework:
 
---> utils Package : Utils folder consist of all the main classes like driver factory which create the driverfactory, SeleniumUtils 
+--> utils Package 
+Utils folder consist of all the main classes like driver factory which create the driverfactory, SeleniumUtils 
 has all the common methods that could be used in all the Page classes.
 
 --> SeleniumUtils class is the SUper class which gets extended by all the page classes.
@@ -30,7 +31,7 @@ Src/test/features:
 This src folder consist all the feature files, written in gherkin plain text.
 
 
-Pom.xml:
+**Pom.xml:**
 
 The pom.xml consist all the dependencies for Selenium, Java , Cucumber and goals. In Goals we have used a failsafe plugin 
 which helps us run the test scripts using mvn verify command from command line or from jenkins as well.
