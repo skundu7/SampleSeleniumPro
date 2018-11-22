@@ -6,7 +6,7 @@ This Automation framework uses Selenium webdriver with Java, and test ases for F
 The framrework uses page objet model with page fatory pattern. Whih helps managing the elements aording to eah page and it simplifies 
 the framework and redues the maintenane effort of the Automation framework.
 
-![Project Structure](SampleSeleniumPro/SampleProject/Projectstructure.pdf)
+![Project Structure](skundu7/SampleSeleniumPro/blob/master/SampleProject/Projectstructure.pdf)
 
 
         
