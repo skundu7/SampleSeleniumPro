@@ -1,10 +1,13 @@
 # SampleSeleniumPro
 **Selenium + Cucumber + Maven + Jenkins Integration**
 
-This Automation framework uses Selenium webdriver with Java, and test ases for Feature files are written using Gherkin plain tet. 
+This Automation framework uses Selenium webdriver with Java, maven ,github as a version control tool, jenkins for CI/CD and test cases for Feature files are written using Gherkin plain text. 
 
-The framrework uses page objet model with page fatory pattern. Whih helps managing the elements aording to eah page and it simplifies 
-the framework and redues the maintenane effort of the Automation framework.
+The framework uses xml file to get test data, which is used in the scripts as expected data.
+
+The framrework uses page object model with page factory pattern. Which helps managing the elements according to each page and it simplifies the framework and reduces the maintenance effort of the Automation framework.
+
+Below is how the project structure looks like.
 
 <img width="237" alt="projectstructure" src="https://user-images.githubusercontent.com/37755917/48909659-f9180580-eec1-11e8-86a2-e64e7ea83b26.png">
 
