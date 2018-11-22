@@ -11,22 +11,22 @@ the framework and redues the maintenane effort of the Automation framework.
 
 The below points will describe the Automation framework:
 
---> utils Package 
+**--> utils Package**
 Utils folder consist of all the main classes like driver factory which create the driverfactory, SeleniumUtils 
 has all the common methods that could be used in all the Page classes.
 
 --> SeleniumUtils class is the SUper class which gets extended by all the page classes.
 
-Pages :
+**Pages :**
 
 All the pages of the application are in a Pages package, all the page classes are extended by the Selenium Utils class, and it also contains 
 the element for each page.
 
-StepDefinitions:
+**StepDefinitions:**
 
 The stepdifiniton for all the Page classes are in stepdefinitions.
 
-Src/test/features:
+**Src/test/features:**
 
 This src folder consist all the feature files, written in gherkin plain text.
 
