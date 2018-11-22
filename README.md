@@ -5,28 +5,27 @@ This Automation framework uses Selenium webdriver with Java, maven ,github as a 
 
 The framework uses xml file to get test data, which is used in the scripts as expected data.
 
-The framrework uses page object model with page factory pattern. Which helps managing the elements according to each page and it simplifies the framework and reduces the maintenance effort of the Automation framework.
+The framework uses page object model with page factory pattern. Which helps managing the elements according to each page and it simplifies the framework and reduces the maintenance effort of the Automation framework.
 
 Below is how the project structure looks like.
 
 <img width="237" alt="projectstructure" src="https://user-images.githubusercontent.com/37755917/48909659-f9180580-eec1-11e8-86a2-e64e7ea83b26.png">
 
-The below points will describe the Automation framework:
+The below points will describe this Automation framework:
 
 **--> utils Package**
-Utils folder consist of all the main classes like driver factory which create the driverfactory, SeleniumUtils 
-has all the common methods that could be used in all the Page classes.
+Utils folder consist of all the main classes like driver factory which create the driverfactory, via SeleniumUtils 
+we are passing our driver to all the Page classes, it usually consists all the common methods.
 
---> SeleniumUtils class is the SUper class which gets extended by all the page classes.
+--> SeleniumUtils class is the Super class which gets extended by all the page classes.
 
 **Pages :**
 
-All the pages of the application are in a Pages package, all the page classes are extended by the Selenium Utils class, and it also contains 
-the element for each page.
+All the pages of the application are in  Pages package, all the page classes contains webelements for each page.
 
 **StepDefinitions:**
 
-The stepdifiniton for all the Page classes are in stepdefinitions.
+The stepdifiniton for all steps of feature files are categoried and for each page different stepdifintion classes are created..
 
 **Src/test/features:**
 
